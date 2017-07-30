@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fenghebaiyang.aspectratioview.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.fenghebaiyang.aspectratioview.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rem"
+                app:ratio="16:9" />
+
+            <com.fenghebaiyang.aspectratioview.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rem"
+                app:ratio="1:1" />
+
+            <com.fenghebaiyang.aspectratioview.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rem"
+                app:ratio="9:16" />
+
+            <com.fenghebaiyang.aspectratioview.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rem"
+                app:ratio="h,9:16" />
+
+            <com.fenghebaiyang.aspectratioview.AspectRatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@mipmap/rem"
+                app:ratio="w,9:16" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

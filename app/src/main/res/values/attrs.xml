@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义图片比例的ImageView-->
+    <declare-styleable name="AspectRatioImageView">
+        <attr name="ratio" format="string"/>
+    </declare-styleable>
+</resources>
