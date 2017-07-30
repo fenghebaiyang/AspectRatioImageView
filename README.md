@@ -1,0 +1,2 @@
+# AspectRatioImageView
+根据比例自动计算宽高的ImageView
