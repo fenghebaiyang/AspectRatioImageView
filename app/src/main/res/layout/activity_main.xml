@@ -22,12 +22,28 @@
                 android:src="@mipmap/rem"
                 app:ratio="16:9" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="（宽高比16：9）"
+                android:textSize="18sp" />
+
             <com.fenghebaiyang.aspectratioview.AspectRatioImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:src="@mipmap/rem"
                 app:ratio="1:1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="（宽高比1：1）"
+                android:textSize="18sp" />
 
             <com.fenghebaiyang.aspectratioview.AspectRatioImageView
                 android:layout_width="match_parent"
@@ -36,6 +52,14 @@
                 android:src="@mipmap/rem"
                 app:ratio="9:16" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="（宽高比9：16）"
+                android:textSize="18sp" />
+
             <com.fenghebaiyang.aspectratioview.AspectRatioImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,12 +67,29 @@
                 android:src="@mipmap/rem"
                 app:ratio="h,9:16" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="（宽高比9：16）"
+                android:textSize="18sp" />
+
             <com.fenghebaiyang.aspectratioview.AspectRatioImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:src="@mipmap/rem"
                 app:ratio="w,9:16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="（宽高比9：16）"
+                android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
